@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./semantic-cifar100/dataloader",
+        "./semantic-cifar100/models"
+    ]
+}
