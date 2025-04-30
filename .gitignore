@@ -1,0 +1,8 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略数据文件
+*.tar.gz
+*.zip
+data/
