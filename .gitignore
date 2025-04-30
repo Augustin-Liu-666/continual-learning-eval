@@ -1,8 +1,19 @@
-# 忽略 Python 缓存
+# Python 缓存和虚拟环境
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
 
-# 忽略数据文件
+# Jupyter
+.ipynb_checkpoints/
+
+# 数据集文件
 *.tar.gz
 *.zip
+*.npz
+*.npy
+*.pkl
 data/
