@@ -1,0 +1,6 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+AGEM,0,11.345,20.47,0.0,1.4992,episodic_memory (500 samples)
+AGEM,1,25.576,20.45,0.0,2.9984,episodic_memory (1000 samples)
+AGEM,2,26.041,20.44,0.0,4.4975,episodic_memory (1500 samples)
+AGEM,3,26.03,20.44,0.0,5.9967,episodic_memory (2000 samples)
+AGEM,4,26.284,20.43,0.0,7.4959,episodic_memory (2500 samples)

@@ -1,0 +1,11 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+OGD,0,1.009,2.46,0.0,0.7764,gradient_vecs (1 tasks)
+OGD,1,1.396,2.31,0.0,1.5528,gradient_vecs (2 tasks)
+OGD,2,1.587,2.31,0.0,2.3292,gradient_vecs (3 tasks)
+OGD,3,1.729,2.31,0.0,3.1056,gradient_vecs (4 tasks)
+OGD,4,1.883,2.31,0.0,3.882,gradient_vecs (5 tasks)
+OGD,5,2.081,2.31,0.0,4.6584,gradient_vecs (6 tasks)
+OGD,6,2.212,2.31,0.0,5.4348,gradient_vecs (7 tasks)
+OGD,7,2.417,2.31,0.0,6.2112,gradient_vecs (8 tasks)
+OGD,8,2.54,2.31,0.0,6.9876,gradient_vecs (9 tasks)
+OGD,9,2.703,2.31,0.0,7.7641,gradient_vecs (10 tasks)

@@ -1,0 +1,6 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+OGD,0,14.857,20.42,0.0,1.6038,prev_grads + prev_params (1 task)
+OGD,1,21.901,20.39,0.0,1.6038,prev_grads + prev_params (1 task)
+OGD,2,22.664,20.4,0.0,1.6038,prev_grads + prev_params (1 task)
+OGD,3,22.978,20.39,0.0,1.6038,prev_grads + prev_params (1 task)
+OGD,4,22.974,20.39,0.0,1.6038,prev_grads + prev_params (1 task)

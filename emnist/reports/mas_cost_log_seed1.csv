@@ -1,0 +1,6 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+MAS,0,185.506,20.41,0.0,1.6038,importance_weights + param_copy
+MAS,1,165.475,20.38,0.0,1.6038,importance_weights + param_copy
+MAS,2,155.16,20.37,0.0,1.6038,importance_weights + param_copy
+MAS,3,154.683,20.37,0.0,1.6038,importance_weights + param_copy
+MAS,4,154.033,20.37,0.0,1.6038,importance_weights + param_copy

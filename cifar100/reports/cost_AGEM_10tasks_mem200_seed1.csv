@@ -1,0 +1,11 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+A-GEM,0,24.901,0.4,0.0,2.3453,episodic_memory (200 samples)
+A-GEM,1,104.725,0.24,0.0,4.6906,episodic_memory (400 samples)
+A-GEM,2,123.922,0.23,0.0,7.0358,episodic_memory (600 samples)
+A-GEM,3,123.759,0.23,0.0,9.3811,episodic_memory (800 samples)
+A-GEM,4,123.735,0.23,0.0,11.7264,episodic_memory (1000 samples)
+A-GEM,5,123.771,0.23,0.0,14.0717,episodic_memory (1200 samples)
+A-GEM,6,123.844,0.23,0.0,16.4169,episodic_memory (1400 samples)
+A-GEM,7,123.781,0.23,0.0,18.7622,episodic_memory (1600 samples)
+A-GEM,8,123.765,0.23,0.0,21.1075,episodic_memory (1800 samples)
+A-GEM,9,123.841,0.23,0.0,23.4528,episodic_memory (2000 samples)

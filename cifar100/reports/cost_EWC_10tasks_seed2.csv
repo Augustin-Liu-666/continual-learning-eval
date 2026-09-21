@@ -1,0 +1,11 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+EWC,0,26.149,0.39,0.0,25.1477,fisher+params (1 tasks)
+EWC,1,33.239,0.23,0.0,50.2955,fisher+params (2 tasks)
+EWC,2,43.648,0.23,0.0,75.4432,fisher+params (3 tasks)
+EWC,3,54.154,0.23,0.0,100.5909,fisher+params (4 tasks)
+EWC,4,64.304,0.23,0.0,125.7387,fisher+params (5 tasks)
+EWC,5,74.648,0.23,0.0,150.8864,fisher+params (6 tasks)
+EWC,6,84.784,0.23,0.0,176.0341,fisher+params (7 tasks)
+EWC,7,95.345,0.23,0.0,201.1819,fisher+params (8 tasks)
+EWC,8,105.861,0.23,0.0,226.3296,fisher+params (9 tasks)
+EWC,9,115.878,0.23,0.0,251.4774,fisher+params (10 tasks)

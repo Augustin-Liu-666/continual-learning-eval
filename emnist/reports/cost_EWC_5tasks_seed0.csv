@@ -1,0 +1,6 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+EWC,0,29.055,20.43,0.0,1.6038,fisher+params (1 tasks)
+EWC,1,42.507,20.39,0.0,3.2076,fisher+params (2 tasks)
+EWC,2,53.808,20.39,0.0,4.8114,fisher+params (3 tasks)
+EWC,3,64.979,20.39,0.0,6.4152,fisher+params (4 tasks)
+EWC,4,74.457,20.39,0.0,8.019,fisher+params (5 tasks)

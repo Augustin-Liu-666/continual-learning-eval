@@ -1,0 +1,9 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+ER,0,148.605,0.9,0.0,14.375,episodic_memory (920 samples)
+ER,1,93.167,0.46,0.0,25.1562,episodic_memory (1610 samples)
+ER,2,48.647,0.44,0.0,37.5,episodic_memory (2400 samples)
+ER,3,51.598,0.42,0.0,49.8438,episodic_memory (3190 samples)
+ER,4,34.721,0.43,0.0,63.75,episodic_memory (4080 samples)
+ER,5,61.442,0.44,0.0,76.7188,episodic_memory (4910 samples)
+ER,6,32.996,0.42,0.0,88.4375,episodic_memory (5660 samples)
+ER,7,62.68,0.42,0.0,101.7188,episodic_memory (6510 samples)

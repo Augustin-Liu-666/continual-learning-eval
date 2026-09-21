@@ -1,19 +1,42 @@
-# Python 缓存和虚拟环境
+# Python caches and virtual environments
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-env/
+*.py[cod]
+*.so
 .venv/
+env/
 venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.claude/
+.vscode/
+
+# Operating-system and editor files
+.DS_Store
+*~
 
 # Jupyter
 .ipynb_checkpoints/
 
-# 数据集文件
+# Raw datasets and local user data
+data/
+emnist/raw_user_data/
+/iam/ calc_metrics.py
 *.tar.gz
 *.zip
 *.npz
 *.npy
 *.pkl
-data/
+
+# Local execution logs and model checkpoints
+logs/
+*.log
+*.pt
+*.pth
+*.ckpt
+
+# Chinese-only report drafts (English versions are retained)
+reports/*_zh.md
+reports/*_zh.pdf

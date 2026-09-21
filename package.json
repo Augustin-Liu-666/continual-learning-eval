@@ -1,0 +1,10 @@
+{
+  "name": "continual-learning-evaluation-tools",
+  "private": true,
+  "scripts": {
+    "corrections:docx": "node scripts/create_minor_corrections_record.js"
+  },
+  "dependencies": {
+    "docx": "^9.5.1"
+  }
+}

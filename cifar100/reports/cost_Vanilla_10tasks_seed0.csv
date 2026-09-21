@@ -1,0 +1,11 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+Vanilla,0,25.369,0.38,0.0,0.0,none
+Vanilla,1,24.422,0.22,0.0,0.0,none
+Vanilla,2,24.964,0.21,0.0,0.0,none
+Vanilla,3,24.848,0.22,0.0,0.0,none
+Vanilla,4,24.509,0.21,0.0,0.0,none
+Vanilla,5,24.225,0.21,0.0,0.0,none
+Vanilla,6,24.226,0.21,0.0,0.0,none
+Vanilla,7,24.425,0.21,0.0,0.0,none
+Vanilla,8,24.456,0.22,0.0,0.0,none
+Vanilla,9,24.822,0.21,0.0,0.0,none

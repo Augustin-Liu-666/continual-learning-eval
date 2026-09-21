@@ -1,0 +1,6 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+ER,0,11.533,20.42,0.0,0.2998,replay_buffer (100 samples)
+ER,1,12.055,22.57,0.0,0.5997,replay_buffer (200 samples)
+ER,2,12.225,22.7,0.0,0.8995,replay_buffer (300 samples)
+ER,3,12.026,22.57,0.0,1.1993,replay_buffer (400 samples)
+ER,4,12.144,22.58,0.0,1.4992,replay_buffer (500 samples)

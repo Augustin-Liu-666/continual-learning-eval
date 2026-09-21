@@ -1,0 +1,47 @@
+% Cost Summary Table — paste into your Results / Cost Analysis section
+% Requires: booktabs, multirow  (\usepackage{booktabs, multirow})
+
+\begin{table}[htbp]
+\centering
+\caption{Computational cost summary across all methods and datasets
+         (mean $\pm$ std, 3 seeds, buffer/memory size = 1{,}000 for ER and A-GEM).
+         Extra Storage includes Fisher matrices (EWC), gradient subspace (OGD),
+         and episodic buffers (ER, A-GEM).
+         Rotated MNIST uses 1 epoch per task (unified across all methods).}
+\label{tab:cost_summary}
+\small
+\begin{tabular}{llrr}
+\toprule
+\textbf{Dataset} & \textbf{Method} &
+\textbf{Training Time (s)} &
+\textbf{Extra Storage (MB)} \\
+\midrule
+
+\multirow{6}{*}{CIFAR-100}
+ & Vanilla  & $243 \pm 2$      & $0.00$    \\
+ & EWC      & $694 \pm 3$      & $251.48$  \\
+ & MAS      & $327 \pm 2$      & $25.15$   \\
+ & OGD      & $283 \pm 2$      & $125.74$  \\
+ & ER       & $461 \pm 0$      & $11.73$   \\
+ & A-GEM    & $1{,}139 \pm 1$  & $117.26$  \\
+\midrule
+
+\multirow{6}{*}{Rotated MNIST}
+ & Vanilla  & $9 \pm 1$  & $0.00$  \\
+ & EWC      & $42 \pm 4$ & $15.53$ \\
+ & MAS      & $23 \pm 2$ & $1.55$  \\
+ & OGD      & $18 \pm 1$ & $7.76$  \\
+ & ER       & $23 \pm 2$ & $3.00$  \\
+ & A-GEM    & $20 \pm 0$ & $29.98$ \\
+\midrule
+
+\multirow{6}{*}{EMNIST}
+ & Vanilla  & $70 \pm 6$         & $0.00$  \\
+ & EWC      & $249 \pm 21$       & $8.02$  \\
+ & MAS      & $839 \pm 75$       & $1.60$  \\
+ & OGD      & $93 \pm 9$         & $1.60$  \\
+ & ER       & $69 \pm 5$         & $3.00$  \\
+ & A-GEM    & $139 \pm 13$       & $14.99$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -10,7 +10,7 @@ def evaluate(model, test_loader, device):
         for batch in test_loader:
             x, y = batch[0].to(device), batch[1].to(device)
 
-            # 保持原始图像形状用于 CNN，不要展平
+            # Preserve the image shape expected by the CNN.
             outputs = model(x)
             _, predicted = torch.max(outputs.data, 1)
             total += y.size(0)
@@ -21,12 +21,12 @@ def evaluate(model, test_loader, device):
 def compute_forgetting_metrics(acc_matrix):
     """
     acc_matrix: list of list
-        acc_matrix[i][j] 表示第 i 次训练后对第 j 个任务的准确率
+        acc_matrix[i][j] is the accuracy on task j after training task i.
     """
     num_tasks = len(acc_matrix)
     max_len = max(len(row) for row in acc_matrix)
 
-    # 将不规则 acc_matrix 转换为等长的矩阵，缺失的补 nan
+    # Pad irregular rows with NaN to form a rectangular matrix.
     padded = np.full((num_tasks, max_len), np.nan)
     for i, row in enumerate(acc_matrix):
         padded[i, :len(row)] = row

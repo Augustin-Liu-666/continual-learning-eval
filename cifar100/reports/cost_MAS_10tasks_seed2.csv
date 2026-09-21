@@ -1,0 +1,11 @@
+method,task_id,train_time_s,peak_ram_mb,peak_gpu_mb,extra_storage_mb,extra_storage_label
+MAS,0,26.198,0.39,0.0,25.1477,importance + prev_params
+MAS,1,33.492,0.22,0.0,25.1477,importance + prev_params
+MAS,2,33.127,0.22,0.0,25.1477,importance + prev_params
+MAS,3,33.085,0.22,0.0,25.1477,importance + prev_params
+MAS,4,33.869,0.22,0.0,25.1477,importance + prev_params
+MAS,5,34.495,0.22,0.0,25.1477,importance + prev_params
+MAS,6,33.904,0.22,0.0,25.1477,importance + prev_params
+MAS,7,33.398,0.22,0.0,25.1477,importance + prev_params
+MAS,8,33.307,0.22,0.0,25.1477,importance + prev_params
+MAS,9,33.274,0.22,0.0,25.1477,importance + prev_params
